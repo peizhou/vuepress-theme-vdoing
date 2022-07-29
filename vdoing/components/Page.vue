@@ -1,6 +1,7 @@
 <template>
   <div>
     <main class="page">
+      
       <div :class="`theme-vdoing-wrapper ${bgStyle}`">
         <ArticleInfo v-if="isArticle()" />
         <div v-else class="placeholder" />
